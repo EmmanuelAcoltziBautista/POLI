@@ -1,0 +1,73 @@
+body{
+    color:rgb(255, 255, 255);
+    /*    background:linear-gradient(transparent,#000);
+      */ background-image: url("https://rosyramales.com/wp-content/uploads/2016/03/prd-1.jpg");
+      /*
+      b
+      
+        */
+     background-attachment: fixed;
+        background-repeat: no-repeat;
+    background-size:cover;
+    
+    }
+    .gradiente{
+        position:fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    background:linear-gradient(#000000,transparent);    
+    }
+
+    .contenedor{
+        /*
+        display: inline-table;
+*/
+    }
+    /*
+    .scroll-bg{
+        width: auto;
+        height: auto;
+        margin: 10% auto;
+    }
+    .scroll-div{
+
+        overflow: hidden;
+        overflow-y: scroll;
+    }*/
+    .menu{
+    color:rgb(255,255,255);
+    text-decoration:none;
+    font-size:19px;
+    /*display: inline-flex;
+    */
+}
+    .menu:hover{
+    text-decoration:underline;
+    font-weight:bold;
+    
+    /*font-size:22px;
+    */}
+
+    /*PC*/
+    @media(max-width:991px) {
+        
+    }
+    .menuI{ 
+    /*    width:28%;
+        height:28%;
+    */
+width: 155px;
+height: 155px;}
+/*MOVIL*/
+@media(max-width:767px) {
+        
+
+.menuI{ 
+/*    width:28%;
+    height:28%;
+*/
+width: 125px;
+height: 125px;}
+}

@@ -1,0 +1,128 @@
+
+.Botones{
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
+.Botones1{
+    position:relative;
+    align-items: center;
+    
+}
+
+.arriba_boton{
+    text-align: center;
+    position: static;
+    /*left: 200px;
+    top: 10%;
+    */cursor:pointer;
+    text-decoration:none;
+    color:rgb(22, 21, 21);
+    text-decoration:none;
+    border-radius: 80px;
+    background-color: rgba(255, 230, 0, 0.959);
+    width: 80px;
+    border: solid 2px;
+    height: 28px;
+    font-size:11px;
+    font-family: 'Segoe UI';
+    padding: 12px;
+    margin: 2px;
+    font-weight:bold;
+    transition: .2s;
+
+}
+
+.arriba_boton:hover{
+    text-decoration:none;
+    background-color: rgba(15, 15, 15, 0.897);
+    color: rgb(255, 230, 0);
+    border: solid 2px rgb(255, 230, 0);
+    
+}
+
+.arriba_boton::before{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+.arriba_boton1{
+    text-align: center;
+    position: static;
+    
+    top: 50%;
+    cursor:pointer;
+    text-align:justify;
+    text-decoration:none;
+    color:rgb(22, 21, 21);
+    text-decoration:none;
+    border-radius: 80px;
+    background-color: rgba(255, 230, 0, 0.959);
+    width: 80px;
+    border: solid 2px;
+    height: 34px;
+    font-size:12px;
+    font-family: 'Segoe UI';
+    padding: 12px;
+    margin: 2px;
+    font-weight:bold;
+    transition: 1s;
+
+}
+
+.arriba_boton1:hover{
+    text-decoration:none;
+    background-color: rgba(15, 15, 15, 0.897);
+    color: rgb(255, 230, 0);
+    border: solid 2px rgb(255, 230, 0);
+    
+}
+
+.arriba_boton1::before{
+    text-decoration:none;
+}
+
+.SELE{
+    background-color: rgba(15, 15, 15, 0.897);    
+    color:rgba(255, 230, 0, 0.959);
+    border:solid 2px rgba(15, 15, 15, 0.897);
+}
+
+
+.arriba_boton2{
+    text-align: center;
+    position: static;
+    
+    cursor:pointer;
+    text-align:justify;
+    text-decoration:none;
+    color:rgb(22, 21, 21);
+    text-decoration:none;
+    
+    background-color: rgba(255, 230, 0, 0.959);
+    
+    
+    font-size:20px;
+    font-family: 'Segoe UI';
+    
+    font-weight:bold;
+    transition: 1s;
+
+}
+
+.arriba_boton2:hover{
+    text-decoration:none;
+    background-color: rgba(15, 15, 15, 0.897);
+    color: rgb(255, 230, 0);
+    border: solid 2px rgb(255, 230, 0);
+    
+}
+
+.arriba_boton2::before{
+    text-decoration:none;
+}
